@@ -61,67 +61,71 @@ st.write('\n')
 st.subheader("Experience & Qualifications")
 st.write(
     """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+- ✔️ Over 14 years of experience in technical project management and engineering, specializing in signalling and telecommunications
+- ✔️ Proven expertise in software integration, system design, and deployment for complex engineering projects
+- ✔️ Strong skills in data analysis and machine learning with Python to drive informed decision-making
+- ✔️ Effective leader in managing cross-functional teams and ensuring timely project delivery
 """
 )
-
 
 # --- SKILLS ---
 st.write('\n')
-st.subheader("Hard Skills")
+st.subheader("Technical Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- 🛠️ Software Development: Python, CI/CD, Version Control (Git)
+- 📊 Data Analysis: MS Excel
+- 🤖 Machine Learning: Regression models, Decision trees, Neural Networks
+- 📡 Telecommunications: Fibre Optics, GSM-R, TETRA, RFOF systems
 """
 )
 
-
-# --- WORK HISTORY ---
 st.write('\n')
-st.subheader("Work History")
-st.write("---")
-
-# --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
+st.subheader("Project Management Skills")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- 📈 Project Planning and Execution
+- 🤝 Stakeholder Management and Client Interface
+- 🔄 System Integration and Third-party Coordination
+- 🚀 Agile and Traditional Project Management Methodologies
+- 💼 Commercial and Technical Supplier Management
+- 🔍 Risk Assessment and Mitigation Strategies
 """
 )
 
-# --- JOB 2
 st.write('\n')
-st.write("🚧", "**Data Analyst | Liberty Mutual Insurance**")
-st.write("01/2018 - 02/2022")
+st.subheader("Professional Experience")
 st.write(
     """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
+- 🏗️ Technical Project Manager / Senior Project Engineer, Siemens Mobility (2024 - Present)
+  - Leading interface management for Sydney Metro West, ensuring seamless client and subcontractor engagement
+  - Overseeing technical deployment and integration for major infrastructure projects
+
+- 🌏 Technical Project Manager / Senior Project Engineer, Siemens Mobility, New Zealand (2021 - 2024)
+  - Managed delivery of signalling systems for Auckland City Rail Link, coordinating with clients and subcontractors
+
+- 🇬🇧 Signalling Interface Manager / Senior Project Engineer, Siemens Mobility, UK (2019 - 2021)
+  - Delivered interface solutions for Crossrail C620, managing third-party integrations and client communications
+
+- 📡 Senior Project Engineer, Siemens Mobility (2016 - Present)
+  - Managed telecommunications projects, including design, construction, and commissioning for various rail projects
+
+- 🔧 Senior Telecommunications Engineer / Tester in Charge (2015 - 2016)
+  - Led testing and commissioning for Thameslink London Bridge Area Programme, overseeing network upgrades
+
+- 🚄 Project Engineer, Ansaldo STS, Australia (2014 - 2015)
+  - Managed engineering and testing for Roy Hill Railway Signalling and Telecommunications Project
+
+- 🛠️ Communications and Control Systems Engineer, Sydney, Australia (2010 - 2012)
+  - Engaged in project management and systems engineering, including smart grid and SCADA opportunities
+
+- 🔬 Research Assistant, Industrial Research Limited, New Zealand (2008 - 2009)
+  - Designed data acquisition systems and conducted optical hardware investigations
+
+- 📡 Honours Researcher, Australian National University (2009)
+  - Conducted research on channel sounding with software-defined radio
 """
 )
-
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "**Data Analyst | Chegg**")
-st.write("04/2015 - 01/2018")
-st.write(
-    """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
-"""
-)
-
 
 # --- Projects & Accomplishments ---
 st.write('\n')
