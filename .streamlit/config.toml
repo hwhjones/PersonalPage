@@ -1,0 +1,5 @@
+[theme]
+primaryColor="#FF6F61"  # A vibrant coral color for primary actions
+backgroundColor="#1E1E1E"  # Dark background for the app
+secondaryBackgroundColor="#2E2E2E"  # Slightly lighter background for secondary elements
+textColor="#FFFFFF"  # White text for high contrast
