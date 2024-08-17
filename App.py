@@ -7,7 +7,6 @@ css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.jpg"
 
-
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Harry Jones"
 PAGE_ICON = ":random:"
