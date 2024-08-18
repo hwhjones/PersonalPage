@@ -12,15 +12,13 @@ PAGE_TITLE = "Digital CV | Harry Jones"
 PAGE_ICON = ":random:"
 NAME = "Harry Jones"
 DESCRIPTION = """
-Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+Technical Project Manager skilled in engineering and telecommunications, focused on successful project delivery and effective stakeholder management.
 """
 
-EMAIL = "johndoe@email.com"
+EMAIL = "hwh.jones@email.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://youtube.com/c/codingisfun",
-    "LinkedIn": "https://linkedin.com",
-    "GitHub": "https://github.com",
-    "Twitter": "https://twitter.com",
+    "LinkedIn": "https://www.linkedin.com/in/harry-jones-97436342/",
+    "GitHub": "https://github.com/hwhjones",
 }
 PROJECTS = {
     "🏆 Hello": "https://youtu.be/Sb0A9i6d320",
