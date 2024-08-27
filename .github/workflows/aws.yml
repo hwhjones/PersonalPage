@@ -43,9 +43,8 @@ jobs:
     - name: Execute remote commands
       uses: appleboy/ssh-action@master
       with: 
-        host:13.210.140.221
-        username:ubuntu
-        key:${{ secrets.EC2_SSH_PRIVATE_KEY }}
+        host: 13.210.140.221
+        username: ubuntu
+        key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
         script: |
-          sudo systemctl stop nginx
-
+          sudo systemctl stop nginx 
