@@ -40,11 +40,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Execute remote commands
-      uses: appleboy/ssh-action@master
-      with: 
-        host: 13.210.140.221
-        username: ubuntu
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
+      with:
         key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
-        script: |
-          sudo systemctl stop nginx 
+
+    - name: Connect to EC2 and run command
+      run: |
+        ssh -o StrictHostKeyChecking=no ubuntu@13.210.140.221 'echo "Connection successful"; ls -la'
