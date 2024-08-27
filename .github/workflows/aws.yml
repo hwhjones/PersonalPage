@@ -44,6 +44,7 @@ jobs:
       uses: shimataro/ssh-key-action@v2
       with:
         key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
+        known_hosts: 13.210.140.221
 
     - name: Connect to EC2 and run command
       run: |
