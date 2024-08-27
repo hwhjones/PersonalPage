@@ -47,12 +47,10 @@ jobs:
         REMOTE_HOST: ec2-13-210-140-221.ap-southeast-2.compute.amazonaws.com
         REMOTE_USER: ubuntu
         TARGET: home
-
-    - name: Executing remote ssh commands using ssh key
-      uses: appleboy/ssh-action@master
-      with:
-        host: ec2-13-210-140-221.ap-southeast-2.compute.amazonaws.com
-        username: ubuntu
-        key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
-        script: |
+        SCRIPT_BEFORE: |
+          echo "Starting deployment..."
           sudo systemctl stop nginx
+        SCRIPT_AFTER: |
+          echo "Deployment completed."
+          sudo systemctl start nginx
+          echo "Nginx restarted."
