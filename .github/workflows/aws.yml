@@ -52,4 +52,4 @@ jobs:
         EC2_IP: 13.210.140.221
         SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
       run: |
-        ssh -o StrictHostKeyChecking=no -i <(echo "$SSH_PRIVATE_KEY") ubuntu@${{ secrets.EC2_HOST }} 'sudo systemctl stop nginx'
+        ssh -o StrictHostKeyChecking=no -i <(echo "$SSH_PRIVATE_KEY") ubuntu@${{ secrets.EC2_IP }} 'sudo systemctl stop nginx'
