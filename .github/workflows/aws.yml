@@ -49,6 +49,7 @@ jobs:
         TARGET: home
         SCRIPT_BEFORE: |
           echo "Starting deployment..."
+          nano hwhjones
           sudo systemctl stop nginx
         SCRIPT_AFTER: |
           echo "Deployment completed."
