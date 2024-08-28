@@ -66,18 +66,6 @@ st.write(
 """
 )
 
-# --- SKILLS ---
-st.write('\n')
-st.subheader("Technical Skills")
-st.write(
-    """
-- 🛠️ Software Development: Python, CI/CD, Version Control (Git)
-- 📊 Data Analysis: MS Excel
-- 🤖 Machine Learning: Regression models, Decision trees, Neural Networks
-- 📡 Telecommunications: Fibre Optics, GSM-R, TETRA, RFOF systems
-"""
-)
-
 st.write('\n')
 st.subheader("Project Management Skills")
 st.write(
@@ -91,37 +79,82 @@ st.write(
 """
 )
 
+# --- SKILLS ---
 st.write('\n')
-st.subheader("Professional Experience")
+st.subheader("Technical Skills")
 st.write(
     """
-- 🏗️ Technical Project Manager / Senior Project Engineer, Siemens Mobility (2024 - Present)
-  - Leading interface management for Sydney Metro West, ensuring seamless client and subcontractor engagement
-  - Overseeing technical deployment and integration for major infrastructure projects
+- 🛠️ Software Development: Python, CI/CD, Version Control (Git)
+- 📊 Data Analysis: MS Excel, Pandas
+- 🤖 Machine Learning: Regression models, Decision trees, Neural Networks
+- 📡 Telecommunications: Fibre Optics, GSM-R, TETRA, RFOF systems
+"""
+)
 
-- 🌏 Technical Project Manager / Senior Project Engineer, Siemens Mobility, New Zealand (2021 - 2024)
-  - Managed delivery of signalling systems for Auckland City Rail Link, coordinating with clients and subcontractors
+st.write('\n')
+st.subheader("Professional Experience")
 
-- 🇬🇧 Signalling Interface Manager / Senior Project Engineer, Siemens Mobility, UK (2019 - 2021)
-  - Delivered interface solutions for Crossrail C620, managing third-party integrations and client communications
 
-- 📡 Senior Project Engineer, Siemens Mobility (2016 - Present)
-  - Managed telecommunications projects, including design, construction, and commissioning for various rail projects
+st.write("🏗️", "**Technical Project Manager / Senior Project Engineer | Siemens Mobility**")
+st.write("2024 - Present")
+st.write(
+    """
+- ► Leading interface management for Sydney Metro West, ensuring seamless client and subcontractor engagement
+- ► Overseeing technical deployment and integration for major infrastructure projects
+"""
+)
 
-- 🔧 Senior Telecommunications Engineer / Tester in Charge (2015 - 2016)
-  - Led testing and commissioning for Thameslink London Bridge Area Programme, overseeing network upgrades
+st.write('\n')
+st.write("🌏", "**Technical Project Manager / Senior Project Engineer | Siemens Mobility, New Zealand**")
+st.write("2021 - 2024")
+st.write(
+    """
+- ► Managed delivery of signalling systems for Auckland City Rail Link, coordinating with clients and subcontractors
+"""
+)
 
-- 🚄 Project Engineer, Ansaldo STS, Australia (2014 - 2015)
-  - Managed engineering and testing for Roy Hill Railway Signalling and Telecommunications Project
+st.write('\n')
+st.write("🇬🇧", "**Technical Project Manager / Senior Project Engineer | Siemens Mobility, UK**")
+st.write("2019 - 2021")
+st.write(
+    """
+- ► Interface Management for Crossrail C620, managing third-party integrations and client communications
+"""
+)
 
-- 🛠️ Communications and Control Systems Engineer, Sydney, Australia (2010 - 2012)
-  - Engaged in project management and systems engineering, including smart grid and SCADA opportunities
+st.write('\n')
+st.write("📡", "**Technical Project Manager / Senior Project Engineer | Siemens Mobility, UK**")
+st.write("2016 - 2019")
+st.write(
+    """
+- ► Managed telecommunications projects, including design, construction, and commissioning for various rail projects
+"""
+)
 
-- 🔬 Research Assistant, Industrial Research Limited, New Zealand (2008 - 2009)
-  - Designed data acquisition systems and conducted optical hardware investigations
+st.write('\n')
+st.write("🔧", "**Senior Telecommunications Engineer / Tester in Charge | Siemens Mobility, UK**")
+st.write("2015 - 2016")
+st.write(
+    """
+- ► Led testing and commissioning for Thameslink London Bridge Area Programme, overseeing network upgrades
+"""
+)
 
-- 📡 Honours Researcher, Australian National University (2009)
-  - Conducted research on channel sounding with software-defined radio
+st.write('\n')
+st.write("🚄", "**Project Engineer | Ansaldo STS, Australia**")
+st.write("2014 - 2015")
+st.write(
+    """
+- ► Managed engineering and testing for Roy Hill Railway Signalling and Telecommunications Project
+"""
+)
+
+st.write('\n')
+st.write("🛠️", "**Communications and Control Systems Engineer | Arup, Australia**")
+st.write("2010 - 2012")
+st.write(
+    """
+- ► Engaged in project management and systems engineering, including smart grid and SCADA opportunities
 """
 )
 
