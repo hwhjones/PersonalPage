@@ -49,9 +49,12 @@ jobs:
         TARGET: home
         SCRIPT_BEFORE: |
           echo "Starting deployment..."
-          nano hwhjones
           sudo systemctl stop nginx
+          sudo systemctl stop streamlit-app.service 
+          rm -rf PersonalPage
         SCRIPT_AFTER: |
+          git clone https://github.com/hwhjones/PersonalPage.git
           echo "Deployment completed."
           sudo systemctl start nginx
-          echo "Nginx restarted."
+          sudo systemctl start streamlit-app.service
+          echo "Nginx & Streamlit restarted."
