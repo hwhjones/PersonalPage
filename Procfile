@@ -1,1 +1,1 @@
-web: streamlit run App.py
+web: streamlit run Resume.py
