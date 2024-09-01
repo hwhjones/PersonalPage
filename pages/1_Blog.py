@@ -5,7 +5,7 @@ from PIL import Image
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 
-# Go up one level to the parent directory (personalpage)
+## Go up one level to the parent directory (personalpage)
 parent_dir = current_dir.parent
 
 # Now locate the CSS file in the styles folder
